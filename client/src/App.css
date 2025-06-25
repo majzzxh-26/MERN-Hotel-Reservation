@@ -216,6 +216,7 @@ nav .logo {
 nav .navLinks {
     display: flex;
     gap: var(--spacing-xl);
+    gap :2px;
 }
 
 nav .navLinks .links a {
@@ -223,8 +224,11 @@ nav .navLinks .links a {
     font-weight: 500;
     color: var(--color-medium-text);
     position: relative;
-    padding-bottom: 5px; /* Space for underline effect */
+    padding: 5px; /* Space for underline effect */
+    
+    
 }
+
 nav .navLinks .links a::after {
     content: '';
     position: absolute;
